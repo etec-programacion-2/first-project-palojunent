@@ -12,4 +12,12 @@ class App {
 
 fun main() {
     println(App().greeting)
+    val nombre: String = "Kotlin" // Variable inmutable con tipo explícito
+    var edad = 25 // Variable mutable con inferencia de tipo
+    val pi = 3.1416 // Double
+    val esActivo = true // Boolean
+    
+    
+    println("Hola $nombre") // Interpolación de strings
+    println("Tengo ${edad + 1} años el próximo año") 
 }
